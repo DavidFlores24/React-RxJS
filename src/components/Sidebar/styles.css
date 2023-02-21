@@ -1,0 +1,29 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #1d4289;
+    color: #FFFFFF;
+}
+
+.conversations-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-right: 5%;
+    height: 50vh
+}
+
+.sidebar-item {
+    cursor: pointer;
+    display: flex;
+}
+
+.sidebar-item-active {
+    font-weight: bold;
+    color: #838DB3;
+}
