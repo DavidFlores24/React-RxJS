@@ -1,0 +1,36 @@
+.conversation-display {
+    display: flex;
+}
+
+.message-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.date {
+    text-align: right;
+    font-size: small;
+}
+
+.text {
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    max-width: 75%;
+    padding: 0.5rem .875rem;
+    position: relative;
+    word-wrap: break-word;
+    align-items: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+    text-align: left;
+}
+
+.message-item-active .text {
+    background-color: #919192;
+}
+
